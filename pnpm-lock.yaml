@@ -210,7 +210,7 @@ importers:
         version: link:../libs/providers/langchain-xai
       '@layerup/layerup-security':
         specifier: ^1.6.0
-        version: 1.6.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
+        version: 1.6.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
       '@opensearch-project/opensearch':
         specifier: ^3.5.1
         version: 3.5.1
@@ -300,7 +300,7 @@ importers:
         version: 2.2.7
       exa-js:
         specifier: ^2.10.2
-        version: 2.11.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))
+        version: 2.11.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))
       firebase-admin:
         specifier: ^13.7.0
         version: 13.8.0(encoding@0.1.13)
@@ -321,25 +321,25 @@ importers:
         version: link:../libs/langchain
       langsmith:
         specifier: ^0.6.0
-        version: 0.6.0(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(ws@5.2.4(bufferutil@4.1.0))
+        version: 0.6.0(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0))
       lorem-ipsum:
         specifier: ^2.0.8
         version: 2.0.8
       lunary:
         specifier: ^0.8.8
-        version: 0.8.8(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
+        version: 0.8.8(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
       mariadb:
         specifier: ^3.5.2
         version: 3.5.2
       mem0ai:
         specifier: ^2.4.5
-        version: 2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@5.2.4(bufferutil@4.1.0))
+        version: 2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@8.20.0(bufferutil@4.1.0))
       mongodb:
         specifier: ^7.1.1
         version: 7.2.0(@aws-sdk/credential-providers@3.1034.0)(socks@2.8.8)
       openai:
         specifier: ^6.33.0
-        version: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
+        version: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
       peggy:
         specifier: ^5.1.0
         version: 5.1.0
@@ -444,31 +444,31 @@ importers:
         version: 0.28.0
       '@rolldown/binding-darwin-arm64':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-darwin-x64':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-linux-arm64-gnu':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-linux-arm64-musl':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-linux-x64-gnu':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-linux-x64-musl':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-win32-arm64-msvc':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@rolldown/binding-win32-ia32-msvc':
         specifier: '*'
         version: 1.0.0-beta.52
       '@rolldown/binding-win32-x64-msvc':
         specifier: '*'
-        version: 1.0.0-rc.18
+        version: 1.0.0
       '@swc/core-win32-x64-msvc':
         specifier: '*'
         version: 1.15.30
@@ -634,9 +634,6 @@ importers:
       '@types/jsdom':
         specifier: ^28.0.1
         version: 28.0.1
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@types/ws':
         specifier: ^8
         version: 8.18.1
@@ -718,7 +715,7 @@ importers:
         version: 4.13.1
       '@browserbasehq/stagehand':
         specifier: ^1.3.0
-        version: 1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)
+        version: 1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)
       '@clickhouse/client':
         specifier: ^0.2.5
         version: 0.2.10
@@ -811,7 +808,7 @@ importers:
         version: link:../providers/langchain-xai
       '@layerup/layerup-security':
         specifier: ^1.5.12
-        version: 1.6.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+        version: 1.6.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       '@opensearch-project/opensearch':
         specifier: ^2.2.0
         version: 2.13.0
@@ -848,9 +845,6 @@ importers:
       '@types/pg':
         specifier: ^8.15.5
         version: 8.20.0
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@types/ws':
         specifier: ^8
         version: 8.18.1
@@ -880,7 +874,7 @@ importers:
         version: 1.2.0
       chromadb:
         specifier: ^1.5.3
-        version: 1.10.5(@google/generative-ai@0.24.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))
+        version: 1.10.5(@google/generative-ai@0.24.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))
       cohere-ai:
         specifier: ^7.14.0
         version: 7.21.0
@@ -901,7 +895,7 @@ importers:
         version: 2.2.7
       exa-js:
         specifier: ^1.0.12
-        version: 1.10.2(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))
+        version: 1.10.2(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))
       firebase-admin:
         specifier: ^13.7.0
         version: 13.8.0(encoding@0.1.13)
@@ -922,19 +916,19 @@ importers:
         version: 2.0.8
       lunary:
         specifier: ^0.8.8
-        version: 0.8.8(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
+        version: 0.8.8(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(react@19.2.5)
       mariadb:
         specifier: ^3.5.1
         version: 3.5.2
       mem0ai:
         specifier: ^2.4.5
-        version: 2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@8.20.0(bufferutil@4.1.0))
+        version: 2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@5.2.4(bufferutil@4.1.0))
       mongodb:
         specifier: ^6.17.0
         version: 6.21.0(@aws-sdk/credential-providers@3.1034.0)(socks@2.8.8)
       openai:
         specifier: ^6.22.0
-        version: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+        version: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       peggy:
         specifier: ^5.1.0
         version: 5.1.0
@@ -986,7 +980,7 @@ importers:
     optionalDependencies:
       langsmith:
         specifier: '>=0.4.0 <1.0.0'
-        version: 0.6.0(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0))
+        version: 0.6.0(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(ws@5.2.4(bufferutil@4.1.0))
 
   libs/langchain-core:
     dependencies:
@@ -1033,9 +1027,6 @@ importers:
       '@types/node':
         specifier: ^25.5.0
         version: 25.6.0
-      '@types/uuid':
-        specifier: ^10.0.0
-        version: 10.0.0
       dotenv:
         specifier: ^17.4.0
         version: 17.4.2
@@ -1275,9 +1266,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -1389,9 +1377,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4(@types/debug@4.1.13)(@types/node@25.6.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -1560,9 +1545,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^10.0.0
-        version: 10.0.0
       dotenv:
         specifier: ^17.4.0
         version: 17.4.2
@@ -1785,9 +1767,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -1908,9 +1887,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -1957,9 +1933,6 @@ importers:
       '@types/node':
         specifier: ^25.5.0
         version: 25.6.0
-      '@types/uuid':
-        specifier: ^10.0.0
-        version: 10.0.0
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -2218,9 +2191,6 @@ importers:
       '@types/flat':
         specifier: ^5.0.5
         version: 5.0.5
-      '@types/uuid':
-        specifier: ^10.0.0
-        version: 10.0.0
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4(@types/debug@4.1.13)(@types/node@25.6.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -2264,9 +2234,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4(@types/debug@4.1.13)(@types/node@25.6.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -2307,9 +2274,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -2417,9 +2381,6 @@ importers:
       '@turbopuffer/turbopuffer':
         specifier: ^1.21.0
         version: 1.22.0
-      '@types/uuid':
-        specifier: ^10.0.0
-        version: 10.0.0
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -2454,9 +2415,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4(@types/debug@4.1.13)(@types/node@25.6.0)(jiti@2.6.1)(lightningcss@1.32.0)(tsx@4.21.0)(yaml@2.8.3))
@@ -2500,9 +2458,6 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.13
-      '@types/uuid':
-        specifier: ^9
-        version: 9.0.8
       '@vitest/coverage-v8':
         specifier: ^3.2.4
         version: 3.2.4(vitest@4.1.5)
@@ -4944,26 +4899,26 @@ packages:
     cpu: [arm64]
     os: [android]
 
+  '@rolldown/binding-darwin-arm64@1.0.0':
+    resolution: {integrity: sha512-6XcD+8k0gPVItNagEw78/qqcBDwKcwDYS8V2hRmVsfUSIrd8cWe/CBvRDI5toqFyPfj+FJr6t8U6Xj2P2prEew==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [darwin]
+
   '@rolldown/binding-darwin-arm64@1.0.0-rc.16':
     resolution: {integrity: sha512-rNz0yK078yrNn3DrdgN+PKiMOW8HfQ92jQiXxwX8yW899ayV00MLVdaCNeVBhG/TbH3ouYVObo8/yrkiectkcQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-arm64@1.0.0-rc.18':
-    resolution: {integrity: sha512-apJq2ktnGp27nSInMR5Vcj8kY6xJzDAvfdIFlpDcAK/w4cDO58qVoi1YQsES/SKiFNge/6e4CUzgjfHduYqWpQ==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rolldown/binding-darwin-x64@1.0.0-rc.16':
-    resolution: {integrity: sha512-r/OmdR00HmD4i79Z//xO06uEPOq5hRXdhw7nzkxQxwSavs3PSHa1ijntdpOiZ2mzOQ3fVVu8C1M19FoNM+dMUQ==}
+  '@rolldown/binding-darwin-x64@1.0.0':
+    resolution: {integrity: sha512-iN/tWVXRQDWvmZlKdceP1Dwug9GDpEymhb9p4xnEe6zvCg5lFmzVljl+1qR1NVx3yfGpr2Na+CuLmv5IU8uzfQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-x64@1.0.0-rc.18':
-    resolution: {integrity: sha512-5Ofot8xbs+pxRHJqm9/9N/4sTQOvdrwEsmPE9pdLEEoAbdZtG6F2LMDfO1sp6ZAtXJuJV/21ew2srq3W8NXB5g==}
+  '@rolldown/binding-darwin-x64@1.0.0-rc.16':
+    resolution: {integrity: sha512-r/OmdR00HmD4i79Z//xO06uEPOq5hRXdhw7nzkxQxwSavs3PSHa1ijntdpOiZ2mzOQ3fVVu8C1M19FoNM+dMUQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
@@ -4980,26 +4935,26 @@ packages:
     cpu: [arm]
     os: [linux]
 
+  '@rolldown/binding-linux-arm64-gnu@1.0.0':
+    resolution: {integrity: sha512-n7Ofp0mx+aB2cC+Sdy5YtMnXtY9lchnHbY+3Yt0uq9JsWQExf4f5Whu0tK0R8Jdc9S6RchTHjIFY7uc92puOVQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [linux]
+
   '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.16':
     resolution: {integrity: sha512-+tHktCHWV8BDQSjemUqm/Jl/TPk3QObCTIjmdDy/nlupcujZghmKK2962LYrqFpWu+ai01AN/REOH3NEpqvYQg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.18':
-    resolution: {integrity: sha512-SOrT/cT4ukTmgnrEz/Hg3m7LBnuCLW9psDeMKrimRWY4I8DmnO7Lco8W2vtqPmMkbVu8iJ+g4GFLVLLOVjJ9DQ==}
+  '@rolldown/binding-linux-arm64-musl@1.0.0':
+    resolution: {integrity: sha512-EIVjy2cgd7uuMMo94FVkBp7F6DhcZAUwNURkSG3RwUmvAXR6s0ISxM81U+IydcZByPG0pZIHsf1b6kTxoFDgJA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
   '@rolldown/binding-linux-arm64-musl@1.0.0-rc.16':
     resolution: {integrity: sha512-3fPzdREH806oRLxpTWW1Gt4tQHs0TitZFOECB2xzCFLPKnSOy90gwA7P29cksYilFO6XVRY1kzga0cL2nRjKPg==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.18':
-    resolution: {integrity: sha512-QWjdxN1HJCpBTAcZ5N5F7wju3gVPzRzSpmGzx7na0c/1qpN9CFil+xt+l9lV/1M6/gqHSNXCiqPfwhVJPeLnug==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
@@ -5016,26 +4971,26 @@ packages:
     cpu: [s390x]
     os: [linux]
 
+  '@rolldown/binding-linux-x64-gnu@1.0.0':
+    resolution: {integrity: sha512-Dfn7iak9BcMMePxcoJfpSbWqnEyrp/dRF63/8qW/eHBdOZov6x5aShLLEYGYdIeSJ6vMLK/XCVB+lGIxm41bQA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+
   '@rolldown/binding-linux-x64-gnu@1.0.0-rc.16':
     resolution: {integrity: sha512-FIb8+uG49sZBtLTn+zt1AJ20TqVcqWeSIyoVt0or7uAWesgKaHbiBh6OpA/k9v0LTt+PTrb1Lao133kP4uVxkg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.18':
-    resolution: {integrity: sha512-uCo8ElcCIAMyYAZyuIZ81oFkhTSIllNvUCHCAlbhlN4ji3uC28h7IIdlXyIvGO7HsuqnV9p3rD/bpH7XhIyhRw==}
+  '@rolldown/binding-linux-x64-musl@1.0.0':
+    resolution: {integrity: sha512-5/utzzDmD/pD/bmuaUcbTf/sZYy0aztwIVlfpoW1fTjCZ0BaPOMVWGZL1zvgxyi7ZIVYWlxKONHmSbHuiOh8Jw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
   '@rolldown/binding-linux-x64-musl@1.0.0-rc.16':
     resolution: {integrity: sha512-RuERhF9/EgWxZEXYWCOaViUWHIboceK4/ivdtQ3R0T44NjLkIIlGIAVAuCddFxsZ7vnRHtNQUrt2vR2n2slB2w==}
-    engines: {node: ^20.19.0 || >=22.12.0}
-    cpu: [x64]
-    os: [linux]
-
-  '@rolldown/binding-linux-x64-musl@1.0.0-rc.18':
-    resolution: {integrity: sha512-XNOQZtuE6yUIvx4rwGemwh8kpL1xvU41FXy/s9K7T/3JVcqGzo3NfKM2HrbrGgfPYGFW42f07Wk++aOC6B9NWA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
@@ -5051,14 +5006,14 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.16':
-    resolution: {integrity: sha512-tj7XRemQcOcFwv7qhpUxMTBbI5mWMlE4c1Omhg5+h8GuLXzyj8HviYgR+bB2DMDgRqUE+jiDleqSCRjx4aYk/Q==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0':
+    resolution: {integrity: sha512-yYK02n8Rngo+gbm1y6G0+7jk1sJ/2Wt7K0me0Y7k/ErBpyf+LJ2gFpqWVTcRV1rUepBlQRmpgWkTQCiiwrK0Ow==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.18':
-    resolution: {integrity: sha512-zsu47DgU0FQzSwi6sU9dZoEdUv7pc1AptSEz/Z8HBg54sV0Pbs3N0+CrIbTsgiu6EyoaNN9CHboqbLaz9lhOyQ==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.16':
+    resolution: {integrity: sha512-tj7XRemQcOcFwv7qhpUxMTBbI5mWMlE4c1Omhg5+h8GuLXzyj8HviYgR+bB2DMDgRqUE+jiDleqSCRjx4aYk/Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
@@ -5069,14 +5024,14 @@ packages:
     cpu: [ia32]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.16':
-    resolution: {integrity: sha512-PH5DRZT+F4f2PTXRXR8uJxnBq2po/xFtddyabTJVJs/ZYVHqXPEgNIr35IHTEa6bpa0Q8Awg+ymkTaGnKITw4g==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0':
+    resolution: {integrity: sha512-14bpChMahXRRXiTwahSl+zzHPW6qQTXtkMuJBFlbo+pqSAews2d4BdCSHfrJ/MBsCZtpmTafsY+1QhBzitcmdg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.18':
-    resolution: {integrity: sha512-7H+3yqGgmnlDTRRhw/xpYY9J1kf4GC681nVc4GqKhExZTDrVVrV2tsOR9kso0fvgBdcTCcQShx4SLLoHgaLwhg==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.16':
+    resolution: {integrity: sha512-PH5DRZT+F4f2PTXRXR8uJxnBq2po/xFtddyabTJVJs/ZYVHqXPEgNIr35IHTEa6bpa0Q8Awg+ymkTaGnKITw4g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
@@ -5460,6 +5415,7 @@ packages:
   '@smithy/util-retry@4.3.6':
     resolution: {integrity: sha512-p6/FO1n2KxMeQyna067i0uJ6TSbb165ZhnRtCpWh4Foxqbfc6oW+XITaL8QkFJj3KFnDe2URt4gOhgU06EP9ew==}
     engines: {node: '>=18.0.0'}
+    deprecated: '@smithy/util-retry v4.3.6 contains a bug in Adaptive Retry, see https://github.com/smithy-lang/smithy-typescript/issues/1993. Upgrade to 4.3.7+'
 
   '@smithy/util-stream@4.5.24':
     resolution: {integrity: sha512-na5vv2mBSDzXewLEEoWGI7LQQkfpmFEomBsmOpzLFjqGctm0iMwXY5lAwesY9pIaErkccW0qzEOUcYP+WKneXg==}
@@ -6006,15 +5962,9 @@ packages:
   '@types/triple-beam@1.3.5':
     resolution: {integrity: sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==}
 
-  '@types/uuid@10.0.0':
-    resolution: {integrity: sha512-7gqG38EyHgyP1S+7+xomFtL+ZNHcKv6DwNaCZmJmo1vgMugyF3TCnXVg4t1uk89mLNwnLtnY3TpOpCOyp1/xHQ==}
-
   '@types/uuid@11.0.0':
     resolution: {integrity: sha512-HVyk8nj2m+jcFRNazzqyVKiZezyhDKrGUA3jlEcg/nZ6Ms+qHwocba1Y/AaVaznJTAM9xpdFSh+ptbNrhOGvZA==}
     deprecated: This is a stub types definition. uuid provides its own type definitions, so you do not need this installed.
-
-  '@types/uuid@9.0.8':
-    resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
 
   '@types/validate-npm-package-name@4.0.2':
     resolution: {integrity: sha512-lrpDziQipxCEeK5kWxvljWYhUvOiB2A9izZd9B2AFarYAkqZshb4lPbRs7zKEic6eGtH8V/2qJW+dPp9OtF6bw==}
@@ -13421,14 +13371,14 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@browserbasehq/stagehand@1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)':
+  '@browserbasehq/stagehand@1.14.0(@playwright/test@1.59.1)(bufferutil@4.1.0)(deepmerge@4.3.1)(dotenv@17.4.2)(encoding@0.1.13)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6))(zod@4.3.6)':
     dependencies:
       '@anthropic-ai/sdk': 0.27.3(encoding@0.1.13)
       '@browserbasehq/sdk': 2.10.0(encoding@0.1.13)
       '@playwright/test': 1.59.1
       deepmerge: 4.3.1
       dotenv: 17.4.2
-      openai: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+      openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       ws: 8.20.0(bufferutil@4.1.0)
       zod: 4.3.6
       zod-to-json-schema: 3.25.2(zod@4.3.6)
@@ -15384,16 +15334,16 @@ snapshots:
   '@rolldown/binding-android-arm64@1.0.0-rc.16':
     optional: true
 
+  '@rolldown/binding-darwin-arm64@1.0.0':
+    optional: true
+
   '@rolldown/binding-darwin-arm64@1.0.0-rc.16':
     optional: true
 
-  '@rolldown/binding-darwin-arm64@1.0.0-rc.18':
+  '@rolldown/binding-darwin-x64@1.0.0':
     optional: true
 
   '@rolldown/binding-darwin-x64@1.0.0-rc.16':
-    optional: true
-
-  '@rolldown/binding-darwin-x64@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-freebsd-x64@1.0.0-rc.16':
@@ -15402,16 +15352,16 @@ snapshots:
   '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.16':
     optional: true
 
+  '@rolldown/binding-linux-arm64-gnu@1.0.0':
+    optional: true
+
   '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.16':
     optional: true
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.18':
+  '@rolldown/binding-linux-arm64-musl@1.0.0':
     optional: true
 
   '@rolldown/binding-linux-arm64-musl@1.0.0-rc.16':
-    optional: true
-
-  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.16':
@@ -15420,16 +15370,16 @@ snapshots:
   '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.16':
     optional: true
 
+  '@rolldown/binding-linux-x64-gnu@1.0.0':
+    optional: true
+
   '@rolldown/binding-linux-x64-gnu@1.0.0-rc.16':
     optional: true
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.18':
+  '@rolldown/binding-linux-x64-musl@1.0.0':
     optional: true
 
   '@rolldown/binding-linux-x64-musl@1.0.0-rc.16':
-    optional: true
-
-  '@rolldown/binding-linux-x64-musl@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-openharmony-arm64@1.0.0-rc.16':
@@ -15442,19 +15392,19 @@ snapshots:
       '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.16':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0':
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.18':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.16':
     optional: true
 
   '@rolldown/binding-win32-ia32-msvc@1.0.0-beta.52':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.16':
+  '@rolldown/binding-win32-x64-msvc@1.0.0':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.18':
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.16':
     optional: true
 
   '@rolldown/pluginutils@1.0.0-rc.16': {}
@@ -16505,13 +16455,9 @@ snapshots:
 
   '@types/triple-beam@1.3.5': {}
 
-  '@types/uuid@10.0.0': {}
-
   '@types/uuid@11.0.0':
     dependencies:
       uuid: 14.0.0
-
-  '@types/uuid@9.0.8': {}
 
   '@types/validate-npm-package-name@4.0.2': {}
 
@@ -17560,7 +17506,7 @@ snapshots:
   chromadb-js-bindings-win32-x64-msvc@1.3.3:
     optional: true
 
-  chromadb@1.10.5(@google/generative-ai@0.24.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)):
+  chromadb@1.10.5(@google/generative-ai@0.24.1)(cohere-ai@7.21.0)(encoding@0.1.13)(ollama@0.6.3)(openai@6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)):
     dependencies:
       cliui: 8.0.1
       isomorphic-fetch: 3.0.0(encoding@0.1.13)
@@ -17568,7 +17514,7 @@ snapshots:
       '@google/generative-ai': 0.24.1
       cohere-ai: 7.21.0
       ollama: 0.6.3
-      openai: 6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6)
+      openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
     transitivePeerDependencies:
       - encoding
 
@@ -18349,6 +18295,17 @@ snapshots:
     dependencies:
       eventsource-parser: 3.0.8
 
+  exa-js@1.10.2(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0)):
+    dependencies:
+      cross-fetch: 4.1.0(encoding@0.1.13)
+      dotenv: 16.4.7
+      openai: 5.23.2(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
+      zod: 3.25.76
+      zod-to-json-schema: 3.25.2(zod@3.25.76)
+    transitivePeerDependencies:
+      - encoding
+      - ws
+
   exa-js@1.10.2(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
@@ -18360,11 +18317,11 @@ snapshots:
       - encoding
       - ws
 
-  exa-js@2.11.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0)):
+  exa-js@2.11.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
       cross-fetch: 4.1.0(encoding@0.1.13)
       dotenv: 16.4.7
-      openai: 5.23.2(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 5.23.2(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
       zod: 3.25.76
       zod-to-json-schema: 3.25.2(zod@3.25.76)
     transitivePeerDependencies:
@@ -19878,6 +19835,7 @@ snapshots:
       '@opentelemetry/api': 1.9.1
       openai: 6.34.0(ws@5.2.4(bufferutil@4.1.0))(zod@4.3.6)
       ws: 5.2.4(bufferutil@4.1.0)
+    optional: true
 
   langsmith@0.6.0(@opentelemetry/api@1.9.1)(openai@6.34.0(ws@8.20.0(bufferutil@4.1.0))(zod@4.3.6))(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
@@ -20172,7 +20130,7 @@ snapshots:
 
   media-typer@1.1.0: {}
 
-  mem0ai@2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@8.20.0(bufferutil@4.1.0)):
+  mem0ai@2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@5.8.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@4.7.1)(ws@5.2.4(bufferutil@4.1.0)):
     dependencies:
       '@anthropic-ai/sdk': 0.91.1(zod@4.3.6)
       '@azure/identity': 4.13.1
@@ -20191,7 +20149,7 @@ snapshots:
       groq-sdk: 1.1.2
       neo4j-driver: 6.0.1
       ollama: 0.6.3
-      openai: 4.104.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
       pg: 8.20.0
       redis: 4.7.1
       uuid: 9.0.1
@@ -20201,7 +20159,7 @@ snapshots:
       - encoding
       - ws
 
-  mem0ai@2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@5.2.4(bufferutil@4.1.0)):
+  mem0ai@2.4.6(@anthropic-ai/sdk@0.91.1(zod@4.3.6))(@azure/identity@4.13.1)(@azure/search-documents@12.2.0)(@cloudflare/workers-types@4.20260501.1)(@google/genai@1.50.1(@modelcontextprotocol/sdk@1.29.0(@cfworker/json-schema@4.1.1)(zod@4.3.6))(bufferutil@4.1.0))(@langchain/core@libs+langchain-core)(@mistralai/mistralai@1.15.1(bufferutil@4.1.0))(@qdrant/js-client-rest@1.17.0(typescript@6.0.3))(@supabase/supabase-js@2.104.0(bufferutil@4.1.0))(@types/jest@30.0.0)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(cloudflare@4.5.0(encoding@0.1.13))(encoding@0.1.13)(groq-sdk@1.1.2)(neo4j-driver@6.0.1)(ollama@0.6.3)(pg@8.20.0)(redis@5.12.1(@opentelemetry/api@1.9.1))(ws@8.20.0(bufferutil@4.1.0)):
     dependencies:
       '@anthropic-ai/sdk': 0.91.1(zod@4.3.6)
       '@azure/identity': 4.13.1
@@ -20220,7 +20178,7 @@ snapshots:
       groq-sdk: 1.1.2
       neo4j-driver: 6.0.1
       ollama: 0.6.3
-      openai: 4.104.0(encoding@0.1.13)(ws@5.2.4(bufferutil@4.1.0))(zod@3.25.76)
+      openai: 4.104.0(encoding@0.1.13)(ws@8.20.0(bufferutil@4.1.0))(zod@3.25.76)
       pg: 8.20.0
       redis: 5.12.1(@opentelemetry/api@1.9.1)
       uuid: 9.0.1
